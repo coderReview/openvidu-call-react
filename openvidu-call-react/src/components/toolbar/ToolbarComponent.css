@@ -57,8 +57,11 @@
     margin-top: 10px;
   }
 
-  #session-title{
-    font-family: 'Open Sans', sans-serif; 
+  #session-url{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: right;
+    margin-top: 15px;
   }
 
 

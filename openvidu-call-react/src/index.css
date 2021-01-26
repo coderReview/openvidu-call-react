@@ -9,3 +9,17 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.start-meeting-wrapper {
+  margin-top: 100px;
+}
+
+.start-meeting-btn {
+  width: fit-content;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  background-color: #58609a;
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -76,10 +76,7 @@ export default class ToolbarComponent extends Component {
                             alt="OpenVidu Logo"
                             src={logo}
                         />
-
-                        {this.props.sessionId && <div id="titleContent">
-                            <span id="session-title">{mySessionId}</span>
-                        </div>}
+                        {mySessionId && <span id="session-url">{window.location.href}</span>}
                     </div>
 
                     <div className="buttonsContent">
